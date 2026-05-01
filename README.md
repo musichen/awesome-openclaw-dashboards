@@ -18,6 +18,7 @@ This repository started from a multi-source collection of OpenClaw dashboard pro
 - [Plugins, Skills & Integrations](#plugins-skills--integrations)
 - [Orchestration & Workflows](#orchestration--workflows)
 - [Grafana Dashboards](#grafana-dashboards)
+- [Coverage & Counts](#coverage--counts)
 - [Contribution Guidelines](#contribution-guidelines)
 
 ---
@@ -79,6 +80,7 @@ This repository started from a multi-source collection of OpenClaw dashboard pro
 
 - [luccast/crabwalk](https://github.com/luccast/crabwalk) - Real-time companion monitor for OpenClaw agents.
 - [SammyLin/openclaw-exporter](https://github.com/SammyLin/openclaw-exporter) - OpenClaw exporter for metrics and monitoring.
+- [awsome-o/grafana-lens](https://github.com/awsome-o/grafana-lens) - Grafana lens plugin/resource found in the mined OpenClaw dashboard list.
 - [henrikrexed/openclaw-observability-plugin](https://github.com/henrikrexed/openclaw-observability-plugin) - Observability plugin for OpenClaw.
 - [myrobotquant/openclaw-monitor](https://github.com/myrobotquant/openclaw-monitor) - OpenClaw monitoring project.
 - [vivekchand/clawmetry](https://github.com/vivekchand/clawmetry) - Telemetry and monitoring project for OpenClaw.
@@ -103,17 +105,27 @@ This repository started from a multi-source collection of OpenClaw dashboard pro
 
 - [cft0808/edict](https://github.com/cft0808/edict) - OpenClaw multi-agent orchestration system with dashboard, model config, and audit trails.
 - [23blocks-OS/ai-maestro](https://github.com/23blocks-OS/ai-maestro) - AI agent orchestrator with skills, memory search, code graph queries, and dashboard management.
+- [ComposioHQ/agent-orchestrator](https://github.com/ComposioHQ/agent-orchestrator) - Agent orchestration project from the mined OpenClaw dashboard list.
 - [getclawe/clawe](https://github.com/getclawe/clawe) - Multi-agent coordination system for OpenClaw agents.
 - [gluk-w/claworc](https://github.com/gluk-w/claworc) - OpenClaw orchestrator.
 - [MrFadiAi/openclaw-manager](https://github.com/MrFadiAi/openclaw-manager) - One-click installer and desktop manager for OpenClaw.
+- [HKUDS/ClawTeam](https://github.com/HKUDS/ClawTeam) - Multi-agent team orchestration project from the mined OpenClaw dashboard list.
+- [Nearcyan/vibecraft](https://github.com/Nearcyan/vibecraft) - Agent workflow project from the mined OpenClaw dashboard list.
+- [Temaki-AI/clawd-control](https://github.com/Temaki-AI/clawd-control) - Control/orchestration project from the mined OpenClaw dashboard list.
+- [andyrewlee/amux](https://github.com/andyrewlee/amux) - Agent workflow project from the mined OpenClaw dashboard list.
 - [andyrewlee/awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) - Curated list of agent orchestrators.
 - [jgarzik/botmaker](https://github.com/jgarzik/botmaker) - UI for creating containerized OpenClaw bots.
+- [johannesjo/parallel-code](https://github.com/johannesjo/parallel-code) - Parallel agent workflow project from the mined OpenClaw dashboard list.
+- [marian2js/opengoat](https://github.com/marian2js/opengoat) - Agent workflow project from the mined OpenClaw dashboard list.
 - [openclaw/openclaw](https://github.com/openclaw/openclaw) - Core OpenClaw project.
 - [paperclipai/paperclip](https://github.com/paperclipai/paperclip) - Agent workflow project found in the dashboard collection.
 - [skridlevsky/graphthulhu](https://github.com/skridlevsky/graphthulhu) - Graph-oriented agent workflow project.
 - [sopaco/cortex-mem](https://github.com/sopaco/cortex-mem) - Memory-oriented agent workflow project.
+- [snarktank/antfarm](https://github.com/snarktank/antfarm) - Agent workflow project from the mined OpenClaw dashboard list.
+- [supabitapp/supacode](https://github.com/supabitapp/supacode) - Agent workflow project from the mined OpenClaw dashboard list.
 - [swarmclawai/swarmclaw](https://github.com/swarmclawai/swarmclaw) - Swarm-style OpenClaw workflow project.
 - [SweetSophia/openclaw-pixel-agents](https://github.com/SweetSophia/openclaw-pixel-agents) - Pixel-art office dashboard for watching OpenClaw agents work.
+- [vivy-company/aizen](https://github.com/vivy-company/aizen) - Agent workflow project from the mined OpenClaw dashboard list.
 - [wolverin0/clawtrol](https://github.com/wolverin0/clawtrol) - OpenClaw control/orchestration project.
 
 ## Grafana Dashboards
@@ -122,6 +134,54 @@ This repository started from a multi-source collection of OpenClaw dashboard pro
 - [OpenClaw Gateway Single Node](https://grafana.com/grafana/dashboards/25180-openclaw-gateway-single-node) - Grafana dashboard for a single-node OpenClaw Gateway.
 - [OpenClaw Gateway Cluster](https://grafana.com/grafana/dashboards/25181-openclaw-gateway-cluster) - Grafana dashboard for OpenClaw Gateway clusters.
 
+## Coverage & Counts
+
+The public README now covers every reachable dashboard/resource from the deduplicated mined list.
+
+| Area | Count |
+|------|------:|
+| Mission Control & Dashboards | 28 |
+| Clients & GUIs | 19 |
+| Observability & Monitoring | 6 |
+| Security & Review | 4 |
+| Plugins, Skills & Integrations | 6 |
+| Orchestration & Workflows | 24 |
+| Grafana Dashboards | 3 |
+| **Total curated resources** | **90** |
+
+Source audit:
+
+| Source file | Unique GitHub/Grafana URLs | Notes |
+|-------------|----------------------------:|-------|
+| `awesome-openclaw-dashboards.md` | 93 | Raw mined URLs before correction; includes duplicates, old owners, and 2 unresolved GitHub URLs. |
+| `DEDUPLICATED_DASHBOARDS.md` | 90 | Deduplicated/corrected public targets used for this README. |
+| `README.md` | 90 | Current curated public index. |
+
+Corrected mined URLs:
+
+| Mined name / old URL | Public entry used |
+|----------------------|-------------------|
+| `agent-orchestrator/agent-orchestrator` | [ComposioHQ/agent-orchestrator](https://github.com/ComposioHQ/agent-orchestrator) |
+| `antfarm-team/antfarm` | [snarktank/antfarm](https://github.com/snarktank/antfarm) |
+| `clawd-control/clawd-control` | [Temaki-AI/clawd-control](https://github.com/Temaki-AI/clawd-control) |
+| `amux-tui/amux` | [andyrewlee/amux](https://github.com/andyrewlee/amux) |
+| `ai-maestro/ai-maestro` | [23blocks-OS/ai-maestro](https://github.com/23blocks-OS/ai-maestro) |
+| `clawteam-ai/clawteam` | [HKUDS/ClawTeam](https://github.com/HKUDS/ClawTeam) |
+| `parallel-code/parallel-code` | [johannesjo/parallel-code](https://github.com/johannesjo/parallel-code) |
+| `supacode-macos/supacode` | [supabitapp/supacode](https://github.com/supabitapp/supacode) |
+| `LukaszMadrzak/VidClaw` | [madrzak/vidclaw](https://github.com/madrzak/vidclaw) |
+| `aizen-workspace/aizen` | [vivy-company/aizen](https://github.com/vivy-company/aizen) |
+| `opengote/opengote` | [marian2js/opengoat](https://github.com/marian2js/opengoat) |
+| `vibecraft-rts/vibecraft` | [Nearcyan/vibecraft](https://github.com/Nearcyan/vibecraft) |
+| `openclaw-grafana-lens` | [awsome-o/grafana-lens](https://github.com/awsome-o/grafana-lens) |
+
+Unresolved mined URLs:
+
+| Mined URL | Status |
+|-----------|--------|
+| `github.com/squad-lead/company-helm` | Not included as a public entry because the repository was not reachable during verification. |
+| `github.com/sortie-io/sortie` | Not included as a GitHub entry because the repository was not reachable during verification. |
+
 ## Contribution Guidelines
 
 Contributions are welcome.
@@ -129,7 +189,7 @@ Contributions are welcome.
 Please keep entries useful, specific, and easy to scan:
 
 - Add one project per pull request when possible.
-- Use the format: `- [owner/repo](https://github.com/owner/repo) - Short, factual description.`
+- Use the format: `- [owner/repo](repo-url) - Short, factual description.`
 - Prefer projects that provide a dashboard, control panel, UI, monitoring view, desktop client, or visual management layer for OpenClaw.
 - Avoid duplicate forks unless the fork has meaningful original work.
 - Keep descriptions neutral and under one sentence.
