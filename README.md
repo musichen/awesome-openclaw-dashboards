@@ -18,6 +18,7 @@ This repository started from a multi-source collection of OpenClaw dashboard pro
 - [Plugins, Skills & Integrations](#plugins-skills--integrations)
 - [Orchestration & Workflows](#orchestration--workflows)
 - [Grafana Dashboards](#grafana-dashboards)
+- [Personal AI Assistant Platforms & Competitors](#personal-ai-assistant-platforms--competitors)
 - [OpenClaw Rewrites & Alternatives](#openclaw-rewrites--alternatives)
 - [Coverage & Counts](#coverage--counts)
 - [Contribution Guidelines](#contribution-guidelines)
@@ -135,6 +136,19 @@ This repository started from a multi-source collection of OpenClaw dashboard pro
 2. [OpenClaw Gateway Cluster](https://grafana.com/grafana/dashboards/25181-openclaw-gateway-cluster) - Grafana dashboard for OpenClaw Gateway clusters.
 3. [OpenClaw Diagnostics OTEL](https://grafana.com/grafana/dashboards/25068-openclaw-diagnostics-otel) - Grafana dashboard for OpenClaw diagnostics telemetry.
 
+## Personal AI Assistant Platforms & Competitors
+
+1. [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) (183,947 ⭐) - Open-source autonomous agent platform for building and running useful agents.
+2. [langgenius/dify](https://github.com/langgenius/dify) (139,890 ⭐) - Self-hostable platform for building agentic workflows, apps, and tool-using assistants.
+3. [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) (129,826 ⭐) - Python-based self-improving personal agent with memory, skills, automations, sandboxing, and chat integrations.
+4. [All-Hands-AI/OpenHands](https://github.com/All-Hands-AI/OpenHands) (72,528 ⭐) - Self-hostable software-development agent platform for taking real actions in codebases and environments.
+5. [OpenInterpreter/open-interpreter](https://github.com/OpenInterpreter/open-interpreter) (63,369 ⭐) - Natural-language computer interface for local terminal, browser, and system actions.
+6. [khoj-ai/khoj](https://github.com/khoj-ai/khoj) (34,356 ⭐) - Self-hostable AI second brain with custom agents, document/web answers, research, and scheduled automations.
+7. [letta-ai/letta](https://github.com/letta-ai/letta) (22,414 ⭐) - Platform for stateful agents with long-term memory and self-improving behavior.
+8. [TransformerOptimus/SuperAGI](https://github.com/TransformerOptimus/SuperAGI) (17,500 ⭐) - Open-source autonomous agent framework with a runnable platform for managing and running agents.
+9. [frdel/agent-zero](https://github.com/frdel/agent-zero) (17,486 ⭐) - Personal autonomous agent system with terminal, browser, memory, and tool-use workflows.
+10. [jina-ai/node-DeepResearch](https://github.com/jina-ai/node-DeepResearch) (5,162 ⭐) - Runnable deep-research agent that searches, reads webpages, and reasons through tasks.
+
 ## OpenClaw Rewrites & Alternatives
 
 1. [badlogic/pi-mono](https://github.com/badlogic/pi-mono) (43,900 ⭐) - Minimal Pi coding-agent monorepo used as a lighter, extensible foundation for custom agent workflows.
@@ -162,8 +176,9 @@ The public README still covers every reachable dashboard/resource from the dedup
 | Plugins, Skills & Integrations | 6 |
 | Orchestration & Workflows | 24 |
 | Grafana Dashboards | 3 |
+| Personal AI Assistant Platforms & Competitors | 10 |
 | OpenClaw Rewrites & Alternatives | 11 |
-| **Total indexed resources** | **101** |
+| **Total indexed resources** | **111** |
 
 Source audit:
 
@@ -172,7 +187,7 @@ Source audit:
 | `awesome-openclaw-dashboards.md` | 93 | Raw mined URLs before correction; includes duplicates, old owners, and 2 unresolved GitHub URLs. |
 | `DEDUPLICATED_DASHBOARDS.md` | 90 | Deduplicated/corrected public targets used for this README. |
 | `README.md` core dashboard sections | 90 | Current dashboard index; exact match against the deduplicated mined list. |
-| `README.md` all indexed sections | 101 | Dashboard index plus verified rewrite/alternative projects. |
+| `README.md` all indexed sections | 111 | Dashboard index plus verified competitor and rewrite/alternative projects. |
 
 Corrected mined URLs:
 
