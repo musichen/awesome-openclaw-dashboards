@@ -18,6 +18,7 @@ This repository started from a multi-source collection of OpenClaw dashboard pro
 - [Plugins, Skills & Integrations](#plugins-skills--integrations)
 - [Orchestration & Workflows](#orchestration--workflows)
 - [Grafana Dashboards](#grafana-dashboards)
+- [OpenClaw Rewrites & Alternatives](#openclaw-rewrites--alternatives)
 - [Coverage & Counts](#coverage--counts)
 - [Contribution Guidelines](#contribution-guidelines)
 
@@ -134,9 +135,23 @@ This repository started from a multi-source collection of OpenClaw dashboard pro
 2. [OpenClaw Gateway Cluster](https://grafana.com/grafana/dashboards/25181-openclaw-gateway-cluster) - Grafana dashboard for OpenClaw Gateway clusters.
 3. [OpenClaw Diagnostics OTEL](https://grafana.com/grafana/dashboards/25068-openclaw-diagnostics-otel) - Grafana dashboard for OpenClaw diagnostics telemetry.
 
+## OpenClaw Rewrites & Alternatives
+
+1. [badlogic/pi-mono](https://github.com/badlogic/pi-mono) (43,900 ⭐) - Minimal Pi coding-agent monorepo used as a lighter, extensible foundation for custom agent workflows.
+2. [HKUDS/nanobot](https://github.com/HKUDS/nanobot) (41,531 ⭐) - Ultra-lightweight Python personal AI agent.
+3. [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) (30,933 ⭐) - Rust rewrite focused on a small footprint, portability, and autonomous assistant infrastructure.
+4. [sipeed/picoclaw](https://github.com/sipeed/picoclaw) (28,665 ⭐) - Go-based lightweight assistant designed for fast startup and low-resource deployment.
+5. [qwibitai/nanoclaw](https://github.com/qwibitai/nanoclaw) (28,511 ⭐) - Lightweight OpenClaw alternative with container isolation and messaging integrations.
+6. [nullclaw/nullclaw](https://github.com/nullclaw/nullclaw) (7,387 ⭐) - Zig-based autonomous assistant infrastructure focused on tiny binaries and low overhead.
+7. [microclaw/microclaw](https://github.com/microclaw/microclaw) (683 ⭐) - Rust chat-native agent inspired by NanoClaw and other minimal Claw variants.
+8. [warengonzaga/tinyclaw](https://github.com/warengonzaga/tinyclaw) (238 ⭐) - Small TypeScript personal autonomous AI companion.
+9. [librefang/librefang](https://github.com/librefang/librefang) (238 ⭐) - Rust open-source agent operating system with OpenClaw-adjacent goals.
+10. [JoasASantos/ironclaw](https://github.com/JoasASantos/ironclaw) (78 ⭐) - Rust personal AI assistant with security-by-design positioning.
+11. [rayclaw/rayclaw](https://github.com/rayclaw/rayclaw) (45 ⭐) - Rust agentic assistant inspired by OpenClaw, NanoClaw, NullClaw, ZeroClaw, and MicroClaw.
+
 ## Coverage & Counts
 
-The public README now covers every reachable dashboard/resource from the deduplicated mined list.
+The public README still covers every reachable dashboard/resource from the deduplicated mined list, and also includes a separate alternatives section for verified lightweight rewrites and adjacent projects.
 
 | Area | Count |
 |------|------:|
@@ -147,7 +162,8 @@ The public README now covers every reachable dashboard/resource from the dedupli
 | Plugins, Skills & Integrations | 6 |
 | Orchestration & Workflows | 24 |
 | Grafana Dashboards | 3 |
-| **Total curated resources** | **90** |
+| OpenClaw Rewrites & Alternatives | 11 |
+| **Total indexed resources** | **101** |
 
 Source audit:
 
@@ -155,7 +171,8 @@ Source audit:
 |-------------|----------------------------:|-------|
 | `awesome-openclaw-dashboards.md` | 93 | Raw mined URLs before correction; includes duplicates, old owners, and 2 unresolved GitHub URLs. |
 | `DEDUPLICATED_DASHBOARDS.md` | 90 | Deduplicated/corrected public targets used for this README. |
-| `README.md` | 90 | Current curated public index. |
+| `README.md` core dashboard sections | 90 | Current dashboard index; exact match against the deduplicated mined list. |
+| `README.md` all indexed sections | 101 | Dashboard index plus verified rewrite/alternative projects. |
 
 Corrected mined URLs:
 
