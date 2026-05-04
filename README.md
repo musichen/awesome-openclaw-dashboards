@@ -229,4 +229,4 @@ Please keep entries useful, specific, and easy to scan:
 
 ## License
 
-This list is released under the [MIT License](LICENSE).
+This list is released under the [GNU General Public License v3.0](LICENSE).
