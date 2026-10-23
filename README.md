@@ -227,6 +227,10 @@ Please keep entries useful, specific, and easy to scan:
 - Keep descriptions neutral and under one sentence.
 - Check that links are public and reachable before submitting.
 
+## Source data
+
+The machine-readable collection behind this list is kept in [openclaw-dashboards-list.md](openclaw-dashboards-list.md). Prefer editing entries there and in the sections above together, so the readable list and the source data stay in sync.
+
 ## License
 
 This list is released under the [GNU General Public License v3.0](LICENSE).
